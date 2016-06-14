@@ -38,7 +38,7 @@ void BrainfuckInterpreter::parseCommand(){
     int wo[MAX_SIZE + MAX_ADD_SIZE];
     int wc[MAX_SIZE + MAX_ADD_SIZE];
 
-	int sizeCommandLine = commandLine.size();
+    int sizeCommandLine = commandLine.size();
     for(int i = 0; i < sizeCommandLine; ++i){
         char ch = commandLine[i];
         if(isOpenChar(ch)){
